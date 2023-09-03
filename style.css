@@ -1,0 +1,25 @@
+header {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(16,91,216,1) 75%, rgba(11,61,145,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+    width: 100%;
+    justify-content: flex-start
+}
+
+.header .logo img {
+    height: 95px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo {
+    cursor: pointer;
+}
+
+.header .logo img:hover {
+    transform: scale(1.1);
+}
