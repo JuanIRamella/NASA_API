@@ -1,4 +1,6 @@
 header {
+    margin-top: 5px;
+    margin-bottom: 5px;
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(16,91,216,1) 75%, rgba(11,61,145,1) 100%);
     display: flex;
@@ -28,3 +30,15 @@ header {
     height: 1em;
     width: 1000em;
 }
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 2px solid #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
